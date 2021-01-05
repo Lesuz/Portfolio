@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import CV from '../CV.pdf';
 
 function AboutMe() {
@@ -23,7 +22,7 @@ function AboutMe() {
                 </p>
             </div>
             <div className="app-aboutme-button">
-                <a href={CV} target="_blank">
+                <a href={CV} target="_blank" rel="noreferrer">
                     <button 
                     className="app-aboutme-cv-button"
                     type="button">
