@@ -22,7 +22,7 @@ function Projects() {
                     <p>React</p>
                     <p>This portfolio is a project in which I practiced and learned some basics of React. It was my 
                         first time using React. It is a simple one-page website with some basic information about me and some 
-                        projects I have done. My CV can also be downloaded by manually saving it. <a href="https://coronaintheworld.netlify.app/" target="_blank" rel="noreferrer">here</a>.</p>
+                        projects I have done. My CV can also be downloaded by manually saving it. <a href="https://www.susannahamalainen.com/" target="_blank" rel="noreferrer">here</a>.</p>
                     </div>
                 </div>
                 <div class="app-project-information">
