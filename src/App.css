@@ -1,390 +1,365 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Handlee&family=Harmattan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+/* header */
+
 .app-header {
-  position: fixed;
-  background-color: blueviolet;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-  box-shadow: 0px 2px 5px rgba(28, 20, 51, 0.5); 
-  color: white;
-}
-.app-header-logo{
-  font-size: 12px;
-  padding-left: 20px;
-  font-family: 'Handlee', cursive;
-}
-.app-header-navigation{
-  font-weight: bold;
-  font-size: 25px;
-  padding: 5px 10px;
-}
-.app-navigation-menu {
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 80%;
-  height: 100%;
-  z-index: 50;
-  box-shadow: 5px 0 5px -2px rgb(197, 197, 197);
-}
-.app-menu{
-  color: rgb(76, 23, 126);
-  padding: 10px;
-  font-weight: bold;
-}
-.app-navigation-menu-header{
-  text-align: center;
-  font-size: 20px;
-  padding: 15px;
-}
-.app-navigation-list{
-  list-style: none;
-  padding-left: 0;
-}
-.app-navigation-list li{
-  list-style: none;
-  padding: 15px;
-  border-bottom: 1px solid rgb(159, 96, 218, 0.5);
-  text-decoration: none;
-}
-.app-navigation-list li a{
-  text-decoration: none;
-  color: rgb(76, 23, 126);
-}
-.app-navigation-menumask {
-  background-color: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 50;
-  opacity: 50%;
-}
-
-.app-landingpage{
-  padding: 60px 20px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  margin: 0;
-  background-color: blueviolet;
-}
-.app-aboutme {
-  padding: 40px 30px;
-}
-.app-content-header {
-  text-align: center;
-  font-family: 'Acme', sans-serif;
-  font-size: 35px;
-}
-.app-aboutme-content{
-  font-size: 20px;
-  font-family: 'Harmattan', sans-serif;
-  text-align: left;
-}
-.app-aboutme-button{
-  text-align: center;
-}
-.app-aboutme-cv-button{
-  height: 40px;
-  width: 150px;
-  background-color: blueviolet;
-  border-radius: 7px;
-  color: white;
-  font-size: 18px;
-
-}
-.app-projects{
-  padding: 40px 20px;
-  background-color: blueviolet ;
-  color: white;
-}
-.app-projects-images img {
-  width: 100%;
-  border-radius: 3px;
-  box-shadow: 9px 8px 5px -1px #000000;
-  margin-top: 20px;
-}
-.project-name {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.project-name a {
-  text-decoration: none;
-  border: 3px solid rgb(255, 255, 255);
-  color: white;
-  border-radius: 5px;
-  padding: 0px 7px;
-}
-.usedSkills {
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
-}
-.app-project-information {
   display: flex;
   flex-direction: column;
-  font-size: 22px;
-  font-family: 'Harmattan', sans-serif;
-}
-.app-project-information div p a{
+  background-color: #99002f;
   color: white;
-}
-.app-footer{
-  background-color: rgb(188, 112, 255);
-  text-align: center;
-  font-size: 12px;
-  padding: 12px;
-  position: relative;
-  bottom: 0;
-  margin: 0;
+  position: fixed;
   width: 100%;
 }
-.app-socialmedia{
+.app-header-logo {
+ text-align: center;
+ padding: 10px;
+ font-size: 10px;
+}
+.app-header-menu {
+  width: 100%;
+  text-align: center;
+}
+.app-header-menu ul{
+  list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  font-weight: bold;
-}
-.app-socialmedia a {
-  text-decoration: none;
-  color: #000000;
-}
-.app-socialmedia a svg {
-  height: 40px;
-  width: 40px;
-}
-
-@media only screen and (min-width: 1000px) {
-  body {
+  flex-direction: row;
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
-  }
-
-  * {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    
-  }
-
-  .app-header {
-    position: fixed;
-    background-color: blueviolet;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    box-shadow: 0px 2px 5px rgba(28, 20, 51, 0.5); 
-    color: white;
-  }
-  .app-header-logo{
-    font-size: 20px;
-    padding-left: 20px;
-    font-family: 'Handlee', cursive;
-  }
-  .app-header-navigation{
-    font-weight: bold;
-    font-size: 35px;
-    padding: 5px 20px;
-  }
-  .app-navigation-menu {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 100%;
-    z-index: 50;
-    box-shadow: 5px 0 5px -2px rgb(197, 197, 197);
-  }
-  .app-menu{
-    color: rgb(76, 23, 126);
-    padding: 10px;
-    font-weight: bold;
-  }
-  .app-navigation-menu-header{
-    text-align: center;
-    font-size: 30px;
-    padding: 15px;
-  }
-  .app-navigation-list{
-    list-style: none;
-    padding-left: 0;
-  }
-  .app-navigation-list li{
-    list-style: none;
-    padding: 25px;
-    border-bottom: 1px solid rgb(159, 96, 218, 0.5);
-    text-decoration: none;
-  }
-  .app-navigation-list li a{
-    text-decoration: none;
-    color: rgb(76, 23, 126);
-    font-size: 25px;
-  }
-  .app-navigation-menumask {
-    background-color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 50;
-    opacity: 50%;
-  }
-
-  .app-landingpage{
-    padding: 90px 20px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    margin: 0;
-    background-color: blueviolet;
-  }
-  .app-aboutme {
-    padding: 40px 30px;
-  }
-  .app-content-header {
-    text-align: center;
-    font-family: 'Acme', sans-serif;
-    font-size: 55px;
-  }
-  .app-aboutme-content{
-    margin: 20px 70px;
-    text-align: left;
-    font-size: 25px;
-    font-family: 'Harmattan', sans-serif;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .app-aboutme-button{
-    text-align: center;
-  }
-  .app-aboutme-cv-button{
-    height: 40px;
-    width: 150px;
-    background-color: blueviolet;
-    border-radius: 7px;
-    color: white;
-    font-size: 18px;
-
-  }
-  .app-projects{
-    padding: 40px 20px;
-    background-color: blueviolet ;
-    color: white;
-  }
-  .app-projects-images img {
-    width: 40%;
-    max-height: 200px;
-    border-radius: 3px;
-    box-shadow: 9px 8px 5px -1px #000000;
-    margin-top: 20px;
-  }
-  
-  .app-project-information {
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    font-family: 'Harmattan', sans-serif;
-    margin-left: 0px;
-    margin-right: 40px;
-    align-items: center;
-  }
-  .app-project-information div {
-    margin-left: 50px;
-    margin-right: 10px;
-    width: 50%;
-    align-items: center;
-  }
-  .app-project-information div p {
-    font-size: 20px;
-  }
-  .app-socialmedia{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .app-socialmedia a {
-    text-decoration: none;
-    color: #000000;
-  }
+  padding: 0;
 }
-@media only screen and (min-width: 1700px) {
+.app-header-menu ul li {
+  width: 33%;
+  text-align: center;
+  padding: 15px;
+}
+.app-header-menu ul li a {
+  text-decoration: none;
+  color: white;
+} 
 
+
+/* about me*/
+.app-aboutme {
+  background: url("./img/backgroundhigh.png");
+  width: 100%;
+  object-fit: cover;
+  margin-top: 0;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
 .app-aboutme-content {
-  width: 40%;
+  color: white;
+}
+.app-aboutme-content img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0px 0px 9px 3px  #222222; 
+  box-shadow: 0px 0px 9px 3px #222222;
+}
+.app-aboutme-content p {
+  margin: 0;
+  padding: 20px;
+  font-weight: 100;
+  font-size: 17px;
+}
+.app-aboutme-socialmedia {
+  display: flex;
+  flex-direction: row;
+}
+.app-aboutme-socialmedia a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+.app-aboutme-socialmedia a svg {
+  width: 40px;
+  height: 40px;
+}
+
+/* Skills*/
+
+.skills-content {
+  padding-top: 100px;
+  text-align: center;
+}
+.skills-content h2 {
+  font-size: 50px;
+  color: #57061e;
+}
+.skill-boxes {
+  text-align: center;
+  display: block;
+  margin: auto;
+  border: 2px solid #99002f;
+  border-radius: 3px;
+  height: 230px;
+  margin-top: 10px;
+  background-color: #8d062f;
+  color: white;
+  width: 95%;
+}
+.skill-boxes svg{
+  margin-top: 20px;
+}
+.skill-boxes p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.app-cv-button {
+  margin-top: 50px;
+}
+.app-cv-button-button {
+  font-size: 18px;
+  padding: 5px;
+  width: 180px;
+  background-color: #8d062f;
+  color: white;
+  border-radius: 3px;
+}
+
+/* Projects */
+
+#projects-header h2 {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  color: #57061e;
+}
+.project-row {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.project-row-image img {
+  width: 95%;
+  display: block;
+  border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
 }
-.app-projects{
-  padding: 40px 20px;
-  background-color: blueviolet ;
-  color: white;
+
+.project-row-information {
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.app-projects-images img {
-  width: 40%;
-  border-radius: 3px;
-  box-shadow: 9px 8px 5px -1px #000000;
-  margin-top: 20px;
-}
-.app-project-information {
-  display: flex;
-  flex-direction: row;
-  font-size: 20px;
-  font-family: 'Harmattan', sans-serif;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.app-project-information img {
-  width: 25%;
-}
-.app-project-information h3 {
-  font-size: 40px;
-}
-.app-project-information div {
-  margin-left: 50px;
-  margin-right: 10px;
-}
-.app-project-information div p {
+.project-row-information-header-and-links h3{
   font-size: 25px;
 }
-.app-socialmedia{
+.project-links {
   display: flex;
-  justify-content: space-between;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  font-weight: bold;
-  font-size: 20px;
+  align-items: center;
 }
-.app-socialmedia a {
+.project-links a{
+  border: 2px solid #8d062f;
+  background-color: #e06f9159;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 15px;
   text-decoration: none;
-  color: #000000;
+  color: #57061e;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
 }
+.project-links a svg {
+  margin: 3px;
 }
+.project-links a p {
+  margin: 0px;
+}
+.project-description {
+  margin-bottom: 50px;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #99002f;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* header */
+
+  .app-header {
+    flex-direction: row;
+    align-items: center;
+  }
+  .app-header-logo {
+   font-size: 8px;
+  }
+  .app-header-menu ul li a {
+    font-size: 20px;
+  } 
+  
+  
+  /* about me*/
+
+  .app-aboutme-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .app-aboutme-content img {
+    width: 30%;
+    height: 30%;
+  }
+  .app-aboutme-content p {
+    font-size: 22px;
+  }
+  .app-aboutme-socialmedia {
+    justify-content: center;
+  }
+  .app-aboutme-socialmedia a {
+    padding: 50px;
+  }
+  .app-aboutme-socialmedia a svg {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Skills*/
+  
+  .skill-boxes {
+    width: 50%;
+  }
+  .app-cv-button {
+    margin-top: 70px;
+  }
+  .app-cv-button-button {
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+  }
+  
+  /* Projects */
+ 
+  .project-row {
+    width: 70%;
+  }
+  .project-row-information-header-and-links h3{
+    font-size: 30px;
+  }
+  .project-description {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .app-header-logo {
+   font-size: 10px;
+  }
+  
+  /* about me*/
+  .app-aboutme {
+    background: url("./img/backgroundwide.png");
+  }
+  .app-aboutme-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .app-aboutme-content img {
+    width: 20%;
+    height: 20%;
+  }
+  .app-aboutme-content-text {
+    padding: 50px;
+  }
+  
+  /* Skills*/
+
+  .skills-row {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skill-boxes {
+    padding: 5px;
+    margin: 5px;
+  }
+  .app-cv-button-button {
+    font-size: 20px;
+    padding: 7px;
+    width: 200px;
+  }
+  
+  /* Projects */
+  
+  .project-row {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .project-row-image {
+    width: 40%;
+  }
+  .project-row-image img {
+    width: 100%;
+  }
+  .project-row-information {
+    width: 90%;
+    padding-left: 50px;
+  }
+  .project-row-information-header-and-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .project-links {
+    display: flex;
+    align-items: center;
+  }
+
+}
+@media only screen and (min-width: 1700px) {
+  
+  /* about me*/
+
+  .app-aboutme-content {
+    width: 65%;
+  }
+  /* Skills*/
+  .skills-row {
+    width: 65%;
+  }
+  /* Projects */
+  .project-row {
+    width: 65%;
+  }
+  .project-row div {
+    margin-top: 20px;
+  }
+}
+
+

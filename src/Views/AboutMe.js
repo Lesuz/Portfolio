@@ -1,35 +1,43 @@
 import React from 'react';
-import CV from '../CV.pdf';
+
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
+
+import profilepic from '../img/profilepic.png'
 
 function AboutMe() {
     return (
         <div id="aboutme-header" className="app-aboutme">
-            <h1 className="app-content-header">
-                Hi, I'm Susanna
-            </h1>
-            <div className="app-aboutme-content">
-                <p> 
-                    I am a third-year Business Information Technology student located in Helsinki metropolitan area. I major 
-                    in web and mobile development, from designing apps to developing them.
-                </p>
-                <p>
-                    I am a rookie front-end developer and a UI/UX enthusiast. I am currently working on expanding my skills and knowledge on web and 
-                    mobile development by doing my own projects.
-                </p>
-                <p>
-                    So far I have some basic knowledge on React, React Native, Ionic and how to use Firebase with both React Native and Ionic. 
-                    I am more familiar with basic HTML, CSS and JavaScript.
-                </p>
-            </div>
-            <div className="app-aboutme-button">
-                <a href={CV} target="_blank" rel="noreferrer">
-                    <button 
-                    className="app-aboutme-cv-button"
-                    type="button">
-                        Download CV!
-                    </button>
-                </a>
-            </div>
+                <div>
+                    <div className="app-aboutme-content">
+                        <img src={profilepic}></img>
+                        <div className="app-aboutme-content-text">
+                            <p>
+                                I am a third-year Business Information Student from Finland, Helsinki metropolitan area. 
+                                I am majoring in web- and mobile development. So far I have done both design apps 
+                                and made them with the skills I have.
+
+                            </p>
+                            <p>
+                                I am keen on learning different frameworks and libraries to make the best apps possible, 
+                                but I am still at the start of my journey. At the moment I am focusing on developing apps with React, since it is such 
+                                a widely used framework.
+                            </p>
+                            <p>
+                                I am more focused on the front-end side of developing, but I also find it important to somewhat know 
+                                what is happening at the back-end, which is why I am interested to learn at least the basics of fullstack. 
+                                I am currently learning the basics by attending a MERN -stack course at my school.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="app-aboutme-socialmedia">
+                        <div>
+                            <a href="https://github.com/Lesuz?tab=repositories" target="_blank" rel="noreferrer"><FaGithub /></a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/susanna-h%C3%A4m%C3%A4l%C3%A4inen-81557616b/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                        </div>
+                    </div>
+                </div>
         </div>
     )
 }
