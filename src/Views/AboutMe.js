@@ -2,7 +2,7 @@ import React from 'react';
 
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 
-import profilepic from '../img/profilepic.png'
+import profilepic from '../img/profilepic.jpg'
 
 function AboutMe() {
     return (

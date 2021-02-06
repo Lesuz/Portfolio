@@ -52,7 +52,7 @@ body {
 
 /* about me*/
 .app-aboutme {
-  background: url("./img/backgroundhigh.png");
+  background: url("./img/backgroundhigh.jpg");
   width: 100%;
   object-fit: cover;
   margin-top: 0;
@@ -281,7 +281,7 @@ body {
   
   /* about me*/
   .app-aboutme {
-    background: url("./img/backgroundwide.png");
+    background: url("./img/backgroundwid.jpg");
   }
   .app-aboutme-content {
     display: flex;
