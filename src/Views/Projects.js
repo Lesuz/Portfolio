@@ -2,12 +2,11 @@ import React from 'react';
 
 
 import coronaintheworld from '../img/CoronaInTheWorld.PNG';
-import todolist from '../img/ToDoList.PNG';
 import tasklist from '../img/TaskListMobileApp.PNG';
 import portfolio from '../img/portfolio.PNG';
 import ladybuggallery from '../img/Ladybuggallery.PNG'
 
-import {CgWebsite, CgDetailsMore} from 'react-icons/cg'
+import {CgWebsite} from 'react-icons/cg'
 import {FaGithub} from 'react-icons/fa'
 
 function Projects() {
@@ -18,7 +17,7 @@ function Projects() {
             </h2>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={portfolio}></img>
+                    <img src={portfolio} alt="picture of project portfolio"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
@@ -50,7 +49,7 @@ function Projects() {
             </div>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={coronaintheworld}></img>
+                    <img src={coronaintheworld} alt="picture of project corona in the world"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
@@ -82,7 +81,7 @@ function Projects() {
             </div>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={ladybuggallery}></img>
+                    <img src={ladybuggallery} alt="picture of project ladybug gallery"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
@@ -116,7 +115,7 @@ function Projects() {
             </div>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={tasklist}></img>
+                    <img src={tasklist} alt="picture of project task list"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">

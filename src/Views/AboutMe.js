@@ -9,7 +9,7 @@ function AboutMe() {
         <div id="aboutme-header" className="app-aboutme">
                 <div>
                     <div className="app-aboutme-content">
-                        <img src={profilepic}></img>
+                        <img src={profilepic} alt="profile picture"></img>
                         <div className="app-aboutme-content-text">
                             <p>
                                 I am a third-year Business Information Student from Finland, Helsinki metropolitan area. 
