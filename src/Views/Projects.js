@@ -17,7 +17,7 @@ function Projects() {
             </h2>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={portfolio} alt="picture of project portfolio"></img>
+                    <img src={portfolio} alt="project portfolio"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
@@ -49,7 +49,7 @@ function Projects() {
             </div>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={coronaintheworld} alt="picture of project corona in the world"></img>
+                    <img src={coronaintheworld} alt="project corona in the world"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
@@ -81,7 +81,7 @@ function Projects() {
             </div>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={ladybuggallery} alt="picture of project ladybug gallery"></img>
+                    <img src={ladybuggallery} alt="project ladybug gallery"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
@@ -115,7 +115,7 @@ function Projects() {
             </div>
             <div className="project-row">
                 <div className="project-row-image">
-                    <img src={tasklist} alt="picture of project task list"></img>
+                    <img src={tasklist} alt="project task list"></img>
                 </div>
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
