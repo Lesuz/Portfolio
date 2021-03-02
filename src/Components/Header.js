@@ -9,13 +9,13 @@ function Header() {
             <div className="app-header-menu">
                 <ul>
                     <li>
-                        <a href="#aboutme-header">About Me</a>
+                        <a href="/#aboutme-header">About Me</a>
                     </li>
                     <li>
-                         <a href="#skills-header">Skills</a>
+                         <a href="/#skills-header">Skills</a>
                     </li>
                     <li>
-                        <a href="#projects-header">Projects</a>
+                        <a href="/#projects-header">Projects</a>
                     </li>
                 </ul>
             </div>

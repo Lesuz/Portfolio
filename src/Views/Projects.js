@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 
 import coronaintheworld from '../img/CoronaInTheWorld.PNG';
@@ -6,7 +7,7 @@ import tasklist from '../img/TaskListMobileApp.PNG';
 import portfolio from '../img/portfolio.PNG';
 import ladybuggallery from '../img/Ladybuggallery.PNG'
 
-import {CgWebsite} from 'react-icons/cg'
+import {CgWebsite, CgDetailsMore} from 'react-icons/cg'
 import {FaGithub} from 'react-icons/fa'
 
 function Projects() {
@@ -22,7 +23,7 @@ function Projects() {
                 <div className="project-row-information">
                     <div className="project-row-information-header-and-links">
                         <div>
-                            <h3>My Website</h3>
+                            <h3>My Portfolio</h3>
                         </div>
                         <div className="project-links">
                             <a href="https://www.susannahamalainen.com/" rel="noreferrer" target="blank_">
@@ -33,12 +34,10 @@ function Projects() {
                                 <FaGithub size={20}/>
                                 <p>Github</p>
                             </a>
-                            {/* 
-                            <a>
+                            <Link to="/Projects/Mywebsite">
                                 <CgDetailsMore size={20}/>
                                 <p>Details</p>
-                            </a>
-                            */}
+                            </Link>
                         </div>
                     </div>
                     <div className="project-description">
@@ -65,12 +64,6 @@ function Projects() {
                                 <FaGithub size={20}/>
                                 <p>Github</p>
                             </a>
-                            {/*
-                            <a>
-                                <CgDetailsMore size={20}/>
-                                <p>Details</p>
-                            </a>
-                            */}
                         </div>
                     </div>
                     <div className="project-description">
