@@ -21,7 +21,6 @@ function App() {
           <Projects />
         </Route>
         <Route path="/Projects/Mywebsite" component={Mywebsite}></Route>
-        <Route path="/Projects/Coronaintheworld" component={Coronaintheworld}></Route>
       </Switch>
       <Footer />
     </Router>
