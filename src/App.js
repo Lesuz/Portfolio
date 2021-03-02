@@ -8,7 +8,6 @@ import Header from './Components/Header';
 import AboutMe from './Views/AboutMe';
 import Projects from './Views/Projects';
 import Skills from './Views/Skills';
-import Coronaintheworld from './Projects/Coronaintheworld';
 import Mywebsite from './Projects/Mywebsite';
 
 function App() {
