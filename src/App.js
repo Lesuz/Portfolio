@@ -9,6 +9,7 @@ import AboutMe from './Views/AboutMe';
 import Projects from './Views/Projects';
 import Skills from './Views/Skills';
 import Mywebsite from './Projects/Mywebsite';
+import CoronaInTheWorld from './Projects/CoronaInTheWorld';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Projects />
         </Route>
         <Route path="/Projects/Mywebsite" component={Mywebsite}></Route>
+        <Route path="/Projects/CoronaInTheWorld" component={CoronaInTheWorld}></Route>
       </Switch>
       <Footer />
     </Router>

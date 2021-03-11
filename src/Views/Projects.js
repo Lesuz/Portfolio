@@ -64,6 +64,10 @@ function Projects() {
                                 <FaGithub size={20}/>
                                 <p>Github</p>
                             </a>
+                            <Link to="/Projects/CoronaInTheWorld">
+                                <CgDetailsMore size={20}/>
+                                <p>Details</p>
+                            </Link>
                         </div>
                     </div>
                     <div className="project-description">
