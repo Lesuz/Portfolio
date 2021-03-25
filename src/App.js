@@ -10,6 +10,7 @@ import Projects from './Views/Projects';
 import Skills from './Views/Skills';
 import Mywebsite from './Projects/Mywebsite';
 import CoronaInTheWorld from './Projects/CoronaInTheWorld';
+import Guestbook from './Projects/Guestbook';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Route>
         <Route path="/Projects/Mywebsite" component={Mywebsite}></Route>
         <Route path="/Projects/CoronaInTheWorld" component={CoronaInTheWorld}></Route>
+        <Route path="/Projects/Guestbook" component={Guestbook}></Route>
       </Switch>
       <Footer />
     </Router>

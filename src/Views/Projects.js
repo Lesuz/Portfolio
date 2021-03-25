@@ -6,6 +6,7 @@ import coronaintheworld from '../img/CoronaInTheWorld.PNG';
 import tasklist from '../img/TaskListMobileApp.PNG';
 import portfolio from '../img/portfolio.PNG';
 import ladybuggallery from '../img/Ladybuggallery.PNG'
+import guestbook from '../img/Guestbook.PNG'
 
 import {CgWebsite, CgDetailsMore} from 'react-icons/cg'
 import {FaGithub} from 'react-icons/fa'
@@ -16,6 +17,36 @@ function Projects() {
             <h2>
                 My Projects
             </h2>
+            <div className="project-row">
+                <div className="project-row-image">
+                    <img src={guestbook} alt="project guestbook"></img>
+                </div>
+                <div className="project-row-information">
+                    <div className="project-row-information-header-and-links">
+                        <div>
+                            <h3>Guestbook</h3>
+                        </div>
+                        <div className="project-links">
+                            <a href="http://guestbookbysusanna.herokuapp.com/" rel="noreferrer" target="blank_">
+                                <CgWebsite size={20}/>
+                                <p>Website</p>
+                            </a>
+                            <a href="https://github.com/Lesuz/Guestbook" rel="noreferrer" target="blank_">
+                                <FaGithub size={20}/>
+                                <p>Github</p>
+                            </a>
+                            <Link to="/Projects/Guestbook">
+                                <CgDetailsMore size={20}/>
+                                <p>Details</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="project-description">
+                        <p>This web app allows the user to input name of a country and it will display how many 
+                            covid cases there are to this date and how many cases there were for each month last year.</p>
+                    </div>
+                </div>
+            </div>
             <div className="project-row">
                 <div className="project-row-image">
                     <img src={portfolio} alt="project portfolio"></img>
