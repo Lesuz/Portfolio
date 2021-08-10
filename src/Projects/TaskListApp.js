@@ -1,16 +1,12 @@
 import "./Projects.css"
 
-import {CgWebsite} from 'react-icons/cg'
-import {FaGithub, FaCube, FaNodeJs, FaReact} from 'react-icons/fa'
-import {SiCsswizardry, SiMongodb} from 'react-icons/si'
+import {FaGithub, FaReact} from 'react-icons/fa'
+import {SiCsswizardry} from 'react-icons/si'
 
 import TaskListAppProcess from '../TaskListApp.pdf'
 
 import tasklist from '../img/TaskList.PNG'
 import tabnav from '../img/TaskListTabNavigation.PNG'
-import schema from '../img/Schema.PNG'
-import worldofdinosaurs from '../img/WorldOfDinosaurs.PNG'
-import searchfilter from '../img/SearchFilter.PNG'
 
 function TaskListApp () {
     return (
