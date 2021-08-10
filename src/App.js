@@ -11,6 +11,8 @@ import Skills from './Views/Skills';
 import Mywebsite from './Projects/Mywebsite';
 import CoronaInTheWorld from './Projects/CoronaInTheWorld';
 import Guestbook from './Projects/Guestbook';
+import WorldOfDinosaurs from './Projects/WorldOfDinosaurs';
+import TaskListApp from './Projects/TaskListApp';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/Projects/Mywebsite" component={Mywebsite}></Route>
         <Route path="/Projects/CoronaInTheWorld" component={CoronaInTheWorld}></Route>
         <Route path="/Projects/Guestbook" component={Guestbook}></Route>
+        <Route path="/Projects/WorldOfDinosaurs" component={WorldOfDinosaurs}></Route>
+        <Route path="/Projects/TaskListApp" component={TaskListApp}></Route>
       </Switch>
       <Footer />
     </Router>

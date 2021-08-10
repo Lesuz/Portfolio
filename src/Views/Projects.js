@@ -7,6 +7,7 @@ import tasklist from '../img/TaskListMobileApp.PNG';
 import portfolio from '../img/portfolio.PNG';
 import ladybuggallery from '../img/Ladybuggallery.PNG'
 import guestbook from '../img/Guestbook.PNG'
+import worldofdinosaurs from '../img/WorldOfDinosaurs.PNG'
 
 import {CgWebsite, CgDetailsMore} from 'react-icons/cg'
 import {FaGithub} from 'react-icons/fa'
@@ -17,6 +18,37 @@ function Projects() {
             <h2>
                 My Projects
             </h2>
+            <div className="project-row">
+                <div className="project-row-image">
+                    <img src={worldofdinosaurs} alt="project guestbook"></img>
+                </div>
+                <div className="project-row-information">
+                    <div className="project-row-information-header-and-links">
+                        <div>
+                            <h3>World of Dinosaurs</h3>
+                        </div>
+                        <div className="project-links">
+                            <a href="https://worldofdinosaurs.netlify.app/" rel="noreferrer" target="blank_">
+                                <CgWebsite size={20}/>
+                                <p>Website</p>
+                            </a>
+                            <a href="https://github.com/Lesuz/World-of-Dinosaurs" rel="noreferrer" target="blank_">
+                                <FaGithub size={20}/>
+                                <p>Github</p>
+                            </a>
+                            <Link to="/Projects/WorldOfDinosaurs">
+                                <CgDetailsMore size={20}/>
+                                <p>Details</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="project-description">
+                        <p>This project is two parts, part one is making the API and part two is making a website to display the 
+                            information available in the API.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div className="project-row">
                 <div className="project-row-image">
                     <img src={guestbook} alt="project guestbook"></img>
@@ -155,12 +187,10 @@ function Projects() {
                                 <FaGithub size={20}/>
                                 <p>Github</p>
                             </a>
-                            {/*
-                            <a>
+                            <Link to="/Projects/TaskListApp">
                                 <CgDetailsMore size={20}/>
                                 <p>Details</p>
-                            </a>
-                            */}
+                            </Link>
                         </div>
                     </div>
                     <div className="project-description">
