@@ -12,7 +12,7 @@ function AboutMe() {
                         <img src={profilepic} alt="profile"></img>
                         <div className="app-aboutme-content-text">
                             <p>
-                                I am a third-year Business Information Student from Finland, Helsinki metropolitan area. 
+                                I am a fourth-year Business Information Technology Student from Finland, Helsinki metropolitan area. 
                                 I am majoring in web- and mobile development. So far I have done both design apps 
                                 and made them with the skills I have.
 
@@ -25,7 +25,7 @@ function AboutMe() {
                             <p>
                                 I am more focused on the front-end side of developing, but I also find it important to somewhat know 
                                 what is happening at the back-end, which is why I am interested to learn at least the basics of fullstack. 
-                                I am currently learning the basics by attending a MERN -stack course at my school.
+                                I am currently working on my thesis in which I am developing a website with the MERN-stack.
                             </p>
                         </div>
                     </div>
